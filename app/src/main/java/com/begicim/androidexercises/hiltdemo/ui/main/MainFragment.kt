@@ -9,7 +9,9 @@ import androidx.fragment.app.viewModels
 import androidx.lifecycle.Observer
 import com.begicim.androidexercises.R
 import com.begicim.androidexercises.hiltdemo.model.ResultData
+import com.begicim.androidexercises.hiltdemo.ui.main.adapter.RepositoriesAdapter
 import dagger.hilt.android.AndroidEntryPoint
+import kotlinx.android.synthetic.main.main_fragment.*
 
 @AndroidEntryPoint
 class MainFragment : Fragment() {
@@ -30,6 +32,9 @@ class MainFragment : Fragment() {
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
 
+        val repositoriesAdapter = RepositoriesAdapter()
+        recyclerview_repositories.adapter = repositoriesAdapter
+
         val repositoriesList = mainViewModel.getRepositoriesList()
 
         repositoriesList.observe(viewLifecycleOwner, Observer { resultData ->
@@ -39,6 +44,7 @@ class MainFragment : Fragment() {
                 }
                 is ResultData.Success -> {
                     val githubDataModel = resultData.data
+                    repositoriesAdapter.submitList(githubDataModel)
                 }
                 is ResultData.Failed -> {
 
@@ -48,6 +54,5 @@ class MainFragment : Fragment() {
                 }
             }
         })
-
     }
 }
