@@ -7,6 +7,7 @@ import com.begicim.androidexercises.hiltdemo.di.NetworkModule
 import com.begicim.androidexercises.hiltdemo.model.ResultData
 import dagger.hilt.android.AndroidEntryPoint
 
+//Reference from this website : https://www.youtube.com/playlist?list=PLAVsCyDh6fYfbPlB_ouJTcJIKNSDxij2-
 @AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
