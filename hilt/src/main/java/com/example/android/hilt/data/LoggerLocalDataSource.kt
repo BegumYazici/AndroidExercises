@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.begicim.loggingapp.data
+package com.example.android.hilt.data
 
 import android.os.Handler
 import android.os.Looper

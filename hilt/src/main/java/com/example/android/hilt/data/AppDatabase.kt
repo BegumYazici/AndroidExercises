@@ -14,31 +14,15 @@
  * limitations under the License.
  */
 
-package com.begicim.loggingapp.data
+package com.example.android.hilt.data
 
-import android.database.Cursor
-import androidx.room.Dao
-import androidx.room.Insert
-import androidx.room.Query
+import androidx.room.Database
+import androidx.room.RoomDatabase
 
 /**
- * Data access object to query the database.
+ * SQLite Database for storing the logs.
  */
-@Dao
-interface LogDao {
-
-    @Query("SELECT * FROM logs ORDER BY id DESC")
-    fun getAll(): List<Log>
-
-    @Insert
-    fun insertAll(vararg logs: Log)
-
-    @Query("DELETE FROM logs")
-    fun nukeTable()
-
-    @Query("SELECT * FROM logs ORDER BY id DESC")
-    fun selectAllLogsCursor(): Cursor
-
-    @Query("SELECT * FROM logs WHERE id = :id")
-    fun selectLogById(id: Long): Cursor?
+@Database(entities = arrayOf(Log::class), version = 1, exportSchema = false)
+abstract class AppDatabase : RoomDatabase() {
+    abstract fun logDao(): LogDao
 }

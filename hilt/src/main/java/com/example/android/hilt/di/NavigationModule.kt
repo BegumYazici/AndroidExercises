@@ -14,31 +14,19 @@
  * limitations under the License.
  */
 
-package com.begicim.loggingapp.data
+package com.example.android.hilt.di
 
-import android.database.Cursor
-import androidx.room.Dao
-import androidx.room.Insert
-import androidx.room.Query
+import com.example.android.hilt.navigator.AppNavigator
+import com.example.android.hilt.navigator.AppNavigatorImpl
+import dagger.Binds
+import dagger.Module
+import dagger.hilt.InstallIn
+import dagger.hilt.android.components.ActivityComponent
 
-/**
- * Data access object to query the database.
- */
-@Dao
-interface LogDao {
+@InstallIn(ActivityComponent::class)
+@Module
+abstract class NavigationModule {
 
-    @Query("SELECT * FROM logs ORDER BY id DESC")
-    fun getAll(): List<Log>
-
-    @Insert
-    fun insertAll(vararg logs: Log)
-
-    @Query("DELETE FROM logs")
-    fun nukeTable()
-
-    @Query("SELECT * FROM logs ORDER BY id DESC")
-    fun selectAllLogsCursor(): Cursor
-
-    @Query("SELECT * FROM logs WHERE id = :id")
-    fun selectLogById(id: Long): Cursor?
+    @Binds
+    abstract fun bindNavigator(impl: AppNavigatorImpl): AppNavigator
 }

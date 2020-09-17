@@ -14,31 +14,22 @@
  * limitations under the License.
  */
 
-package com.begicim.loggingapp.data
+package com.example.android.hilt.util
 
-import android.database.Cursor
-import androidx.room.Dao
-import androidx.room.Insert
-import androidx.room.Query
+import android.annotation.SuppressLint
+import java.text.SimpleDateFormat
+import java.util.Date
+import javax.inject.Inject
 
 /**
- * Data access object to query the database.
+ * String formatter for the log dates.
  */
-@Dao
-interface LogDao {
+class DateFormatter @Inject constructor() {
 
-    @Query("SELECT * FROM logs ORDER BY id DESC")
-    fun getAll(): List<Log>
+    @SuppressLint("SimpleDateFormat")
+    private val formatter = SimpleDateFormat("d MMM yyyy HH:mm:ss")
 
-    @Insert
-    fun insertAll(vararg logs: Log)
-
-    @Query("DELETE FROM logs")
-    fun nukeTable()
-
-    @Query("SELECT * FROM logs ORDER BY id DESC")
-    fun selectAllLogsCursor(): Cursor
-
-    @Query("SELECT * FROM logs WHERE id = :id")
-    fun selectLogById(id: Long): Cursor?
+    fun formatDate(timestamp: Long): String {
+        return formatter.format(Date(timestamp))
+    }
 }

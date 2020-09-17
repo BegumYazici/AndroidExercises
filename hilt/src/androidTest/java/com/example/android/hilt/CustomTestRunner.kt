@@ -14,31 +14,15 @@
  * limitations under the License.
  */
 
-package com.begicim.loggingapp.data
+package com.example.android.hilt
 
-import android.database.Cursor
-import androidx.room.Dao
-import androidx.room.Insert
-import androidx.room.Query
+import android.app.Application
+import android.content.Context
+import androidx.test.runner.AndroidJUnitRunner
+import dagger.hilt.android.testing.HiltTestApplication
 
-/**
- * Data access object to query the database.
- */
-@Dao
-interface LogDao {
-
-    @Query("SELECT * FROM logs ORDER BY id DESC")
-    fun getAll(): List<Log>
-
-    @Insert
-    fun insertAll(vararg logs: Log)
-
-    @Query("DELETE FROM logs")
-    fun nukeTable()
-
-    @Query("SELECT * FROM logs ORDER BY id DESC")
-    fun selectAllLogsCursor(): Cursor
-
-    @Query("SELECT * FROM logs WHERE id = :id")
-    fun selectLogById(id: Long): Cursor?
+class CustomTestRunner : AndroidJUnitRunner() {
+    override fun newApplication(cl: ClassLoader?, name: String?, context: Context?): Application {
+        return super.newApplication(cl, HiltTestApplication::class.java.name, context)
+    }
 }
