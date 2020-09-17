@@ -10,6 +10,7 @@ import androidx.lifecycle.Observer
 import com.begicim.androidexercises.R
 import com.begicim.androidexercises.hiltdemo.model.ResultData
 import com.begicim.androidexercises.hiltdemo.ui.main.adapter.RepositoriesAdapter
+import com.begicim.androidexercises.hiltdemo.ui.main.viewmodel.MainViewModel
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.android.synthetic.main.main_fragment.*
 

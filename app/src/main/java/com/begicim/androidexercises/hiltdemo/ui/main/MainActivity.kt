@@ -1,4 +1,4 @@
-package com.begicim.androidexercises.hiltdemo
+package com.begicim.androidexercises.hiltdemo.ui.main
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -14,6 +14,9 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-
+        val mainFragment = MainFragment()
+        supportFragmentManager.beginTransaction()
+            .replace(R.id.fragment_container_view, mainFragment)
+            .commit()
     }
 }

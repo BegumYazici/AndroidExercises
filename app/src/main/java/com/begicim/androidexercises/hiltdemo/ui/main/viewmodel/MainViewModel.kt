@@ -1,4 +1,4 @@
-package com.begicim.androidexercises.hiltdemo.ui.main
+package com.begicim.androidexercises.hiltdemo.ui.main.viewmodel
 
 import androidx.hilt.lifecycle.ViewModelInject
 import androidx.lifecycle.LiveData
