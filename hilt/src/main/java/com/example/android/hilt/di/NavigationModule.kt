@@ -29,4 +29,5 @@ abstract class NavigationModule {
 
     @Binds
     abstract fun bindNavigator(impl: AppNavigatorImpl): AppNavigator
+
 }

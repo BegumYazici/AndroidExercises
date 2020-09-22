@@ -34,12 +34,7 @@ class LoggerLocalDataSource @Inject constructor(private val logDao: LogDao) : Lo
 
     override fun addLog(msg: String) {
         executorService.execute {
-            logDao.insertAll(
-                Log(
-                    msg,
-                    System.currentTimeMillis()
-                )
-            )
+            logDao.insertAll(Log(msg, System.currentTimeMillis()))
         }
     }
 

@@ -27,13 +27,14 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.android.hilt.R
 import com.example.android.hilt.data.Log
 import com.example.android.hilt.data.LoggerDataSource
+import com.example.android.hilt.data.LoggerLocalDataSource
 import com.example.android.hilt.di.InMemoryLogger
 import com.example.android.hilt.util.DateFormatter
 import dagger.hilt.android.AndroidEntryPoint
 import javax.inject.Inject
 
 /**
- * Fragment that displays the database logs.
+  * Fragment that displays the database logs.
  */
 @AndroidEntryPoint
 class LogsFragment : Fragment() {
@@ -62,11 +63,7 @@ class LogsFragment : Fragment() {
         super.onResume()
 
         logger.getAllLogs { logs ->
-            recyclerView.adapter =
-                LogsViewAdapter(
-                    logs,
-                    dateFormatter
-                )
+            recyclerView.adapter = LogsViewAdapter(logs, dateFormatter)
         }
     }
 }
@@ -74,10 +71,8 @@ class LogsFragment : Fragment() {
 /**
  * RecyclerView adapter for the logs list.
  */
-private class LogsViewAdapter(
-    private val logsDataSet: List<Log>,
-    private val daterFormatter: DateFormatter
-) : RecyclerView.Adapter<LogsViewAdapter.LogsViewHolder>() {
+private class LogsViewAdapter(private val logsDataSet: List<Log>, private val daterFormatter: DateFormatter)
+    : RecyclerView.Adapter<LogsViewAdapter.LogsViewHolder>() {
 
     class LogsViewHolder(val textView: TextView) : RecyclerView.ViewHolder(textView)
 

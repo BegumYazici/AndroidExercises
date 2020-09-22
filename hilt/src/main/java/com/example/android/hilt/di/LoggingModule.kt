@@ -29,10 +29,10 @@ import javax.inject.Qualifier
 import javax.inject.Singleton
 
 @Qualifier
-annotation class InMemoryLogger
+annotation class DatabaseLogger
 
 @Qualifier
-annotation class DatabaseLogger
+annotation class InMemoryLogger
 
 @InstallIn(ApplicationComponent::class)
 @Module
