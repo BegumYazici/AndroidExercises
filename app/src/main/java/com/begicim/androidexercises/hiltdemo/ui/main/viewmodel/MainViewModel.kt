@@ -9,6 +9,7 @@ import com.begicim.androidexercises.hiltdemo.model.ResultData
 import com.begicim.androidexercises.hiltdemo.usecase.DataUseCase
 
 class MainViewModel @ViewModelInject constructor(private val useCase: DataUseCase) : ViewModel() {
+
     fun getRepositoriesList() : LiveData<ResultData<GithubDataModel>> {
         return liveData<ResultData<GithubDataModel>> {
             emit(ResultData.Loading())

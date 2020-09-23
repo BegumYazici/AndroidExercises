@@ -10,6 +10,4 @@ class RepositoriesViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView)
         itemView.text_view_repo_name.text = item?.name
         itemView.text_view_repo_description.text = item?.description
     }
-
-
 }

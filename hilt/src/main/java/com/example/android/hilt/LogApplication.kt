@@ -19,5 +19,6 @@ package com.example.android.hilt
 import android.app.Application
 import dagger.hilt.android.HiltAndroidApp
 
+//This project reference from https://codelabs.developers.google.com/codelabs/android-hilt/#3
 @HiltAndroidApp
 class LogApplication : Application()
