@@ -1,3 +1,4 @@
+include ':guesthewordapp'
 include ':hilt'
 include ':app'
 rootProject.name = "AndroidExercises"
