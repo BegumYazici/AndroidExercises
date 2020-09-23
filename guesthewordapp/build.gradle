@@ -56,6 +56,12 @@ dependencies {
     // KTX
     implementation 'androidx.core:core-ktx:1.0.1'
 
+    //Hilt
+    implementation "com.google.dagger:hilt-android:$hilt_version"
+    kapt "com.google.dagger:hilt-android-compiler:$hilt_version"
+    implementation "androidx.hilt:hilt-lifecycle-viewmodel:$hilt_extensions_version"
+    kapt "androidx.hilt:hilt-compiler:$hilt_extensions_version"
+
     // Navigation
     implementation "android.arch.navigation:navigation-fragment-ktx:1.0.0"
     implementation "android.arch.navigation:navigation-ui-ktx:1.0.0"

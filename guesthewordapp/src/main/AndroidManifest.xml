@@ -19,6 +19,7 @@
     package="com.example.android.guesstheword">
 
     <application
+        android:name=".app.GuessTheWordApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_guess_it"
         android:label="@string/app_name"
@@ -27,14 +28,9 @@
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
 
-        <!-- Screen locked to landscape for easier play -->
-        <!-- configChanges attribute makes the following actions NOT cause a config change  -->
-        <!-- screenOrientation attribute sets the default animation-->
         <activity android:name=".MainActivity">
-
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
