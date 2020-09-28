@@ -14,10 +14,11 @@
  * limitations under the License.
  */
 
-package com.example.android.guesstheword
+package com.example.android.guesstheword.main
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import com.example.android.guesstheword.R
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint

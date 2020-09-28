@@ -17,11 +17,17 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <data>
+        <variable
+            name="scoreViewModel"
+            type="com.example.android.guesstheword.main.score.ScoreViewModel" />
+    </data>
+
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/score_layout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".screens.score.ScoreFragment">
+        tools:context=".main.score.ScoreFragment">
 
         <Button
             android:id="@+id/play_again_button"
@@ -74,10 +80,4 @@
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
-    <data>
-
-        <variable
-            name="scoreViewModel"
-            type="com.example.android.guesstheword.screens.score.ScoreViewModel" />
-    </data>
 </layout>
