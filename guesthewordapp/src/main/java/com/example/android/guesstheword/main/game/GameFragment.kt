@@ -14,10 +14,13 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.findNavController
 import com.example.android.guesstheword.R
 import com.example.android.guesstheword.databinding.GameFragmentBinding
+import dagger.hilt.android.AndroidEntryPoint
+import javax.inject.Inject
 
+@AndroidEntryPoint
 class GameFragment : Fragment() {
 
-    private lateinit var viewModel: GameViewModel
+    @Inject lateinit var viewModel: GameViewModel
     private lateinit var binding: GameFragmentBinding
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,

@@ -2,6 +2,7 @@ package com.begicim.androidexercises.hiltdemo.di
 
 import com.begicim.androidexercises.hiltdemo.repositories.DataRepository
 import com.begicim.androidexercises.hiltdemo.usecase.DataUseCase
+import dagger.Binds
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

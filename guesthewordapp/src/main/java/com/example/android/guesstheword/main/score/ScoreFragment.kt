@@ -28,10 +28,15 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.findNavController
 import com.example.android.guesstheword.R
 import com.example.android.guesstheword.databinding.ScoreFragmentBinding
+import dagger.hilt.android.AndroidEntryPoint
+import androidx.fragment.app.viewModels
+import javax.inject.Inject
 
+@AndroidEntryPoint
 class ScoreFragment : Fragment() {
 
-    private lateinit var scoreViewModel: ScoreViewModel
+    private val scoreViewModel by viewModels<ScoreViewModel>()
+
     private lateinit var viewModelFactory: ScoreViewModelFactory
 
     override fun onCreateView(
@@ -42,8 +47,8 @@ class ScoreFragment : Fragment() {
 
         val binding: ScoreFragmentBinding = DataBindingUtil.inflate(inflater, R.layout.score_fragment, container, false)
 
-        viewModelFactory = ScoreViewModelFactory(ScoreFragmentArgs.fromBundle(arguments!!).score)
-        scoreViewModel = ViewModelProvider(this, viewModelFactory).get(ScoreViewModel::class.java)
+ //       viewModelFactory = ScoreViewModelFactory(ScoreFragmentArgs.fromBundle(arguments!!).score)
+  //      scoreViewModel = ViewModelProvider(this, viewModelFactory).get(ScoreViewModel::class.java)
 
         binding.scoreViewModel = scoreViewModel
         binding.lifecycleOwner = viewLifecycleOwner

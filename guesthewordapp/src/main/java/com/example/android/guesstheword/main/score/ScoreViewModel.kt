@@ -1,11 +1,12 @@
 package com.example.android.guesstheword.main.score
 
 import android.util.Log
+import androidx.hilt.lifecycle.ViewModelInject
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 
-class ScoreViewModel(finalScore: Int) : ViewModel() {
+class ScoreViewModel @ViewModelInject constructor(finalScore: Int) : ViewModel() {
 
     private val _score = MutableLiveData<Int>()
     val score: LiveData<Int>

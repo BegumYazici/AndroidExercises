@@ -3,12 +3,13 @@ package com.example.android.guesstheword.main.game
 import android.os.CountDownTimer
 import android.text.format.DateUtils
 import android.util.Log
+import androidx.hilt.lifecycle.ViewModelInject
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.Transformations
 import androidx.lifecycle.ViewModel
 
-class GameViewModel : ViewModel() {
+class GameViewModel : ViewModel()  {
 
     private lateinit var wordList: MutableList<String>
 

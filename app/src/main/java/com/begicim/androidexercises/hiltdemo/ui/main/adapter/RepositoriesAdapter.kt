@@ -6,7 +6,9 @@ import androidx.recyclerview.widget.ListAdapter
 import com.begicim.androidexercises.R
 import com.begicim.androidexercises.hiltdemo.model.DiffUtilGithubDataModelItem
 import com.begicim.androidexercises.hiltdemo.model.GithubDataModelItem
+import dagger.hilt.android.scopes.ActivityRetainedScoped
 
+@ActivityRetainedScoped
 class RepositoriesAdapter : ListAdapter<GithubDataModelItem, RepositoriesViewHolder>(DiffUtilGithubDataModelItem()) {
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): RepositoriesViewHolder {
         val itemView = LayoutInflater.from(parent.context).inflate(R.layout.list_item_repositories,parent,false)

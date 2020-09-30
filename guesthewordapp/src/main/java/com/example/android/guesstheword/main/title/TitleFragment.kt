@@ -9,7 +9,9 @@ import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import com.example.android.guesstheword.R
 import com.example.android.guesstheword.databinding.TitleFragmentBinding
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class TitleFragment : Fragment() {
 
     private lateinit var binding: TitleFragmentBinding
@@ -17,8 +19,7 @@ class TitleFragment : Fragment() {
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
                               savedInstanceState: Bundle?): View {
 
-        binding = DataBindingUtil.inflate(
-                inflater, R.layout.title_fragment, container, false)
+        binding = DataBindingUtil.inflate(inflater, R.layout.title_fragment, container, false)
 
         //Play butonuna tıklayınca game ekranına geçer.
         binding.playGameButton.setOnClickListener {
