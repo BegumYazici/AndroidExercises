@@ -1,0 +1,247 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/gokhan/DEVELOPER/github/AndroidExercises/guesthewordapp/src/main/AndroidManifest.xml:17:1-39:12
+INJECTED from /Users/gokhan/DEVELOPER/github/AndroidExercises/guesthewordapp/src/main/AndroidManifest.xml:17:1-39:12
+INJECTED from /Users/gokhan/DEVELOPER/github/AndroidExercises/guesthewordapp/src/main/AndroidManifest.xml:17:1-39:12
+INJECTED from /Users/gokhan/DEVELOPER/github/AndroidExercises/guesthewordapp/src/main/AndroidManifest.xml:17:1-39:12
+MERGED from [androidx.databinding:databinding-adapters:4.0.1] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/814a8bed33cb78d2a71ef0c6de95e1c0/databinding-adapters-4.0.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.databinding:databinding-runtime:4.0.1] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/f9c58c2dec10f38f072160d4433e2b1b/databinding-runtime-4.0.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/6b20e65dbe50763b55bdf56073383ba4/constraintlayout-2.0.1/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.navigation:navigation-ui-ktx:2.0.0] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/2633402edcb7a570642392cf754761a1/navigation-ui-ktx-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-ui:2.0.0] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/3129fd8275f1dee00232cd0e880d3718/navigation-ui-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.material:material:1.0.0] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/468f8dda6b0e6e54c783eceed8877d98/material-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/7979c1bb300448175cbcbe414e92b676/appcompat-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/55fcbea3c8949bcebe1bd2aee8d8d9f3/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.3.1] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/4076b960f88668300faaf7c841a0593d/jetified-core-ktx-1.3.1/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.hilt:hilt-lifecycle-viewmodel:1.0.0-alpha01] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/6b46e0b6801da4e747552f30824c710e/jetified-hilt-lifecycle-viewmodel-1.0.0-alpha01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.hilt:hilt-common:1.0.0-alpha01] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/6e84eb8f14bec1dde209ee299da891ac/jetified-hilt-common-1.0.0-alpha01/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.dagger:hilt-android:2.28-alpha] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/c88989dff0652eef3cf690806d8c6078/jetified-hilt-android-2.28-alpha/AndroidManifest.xml:16:1-19:12
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.0.0] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/348293cde9d5d937d5d24cb0f5d3ea6c/navigation-fragment-ktx-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/04c90a8b61ce26e8c015134dfee80cf1/jetified-lifecycle-viewmodel-ktx-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-fragment:2.0.0] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/24ea244ddff53cca6109918519277b08/navigation-fragment-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.2.0] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/54fa9c1f79402b0c02fff84cc54a8082/fragment-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.1.0] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/004d051a9cc198a0d29dbbb16406b13c/jetified-activity-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/0e14ca0c9cd9ab21d4f4d8728c66a0c0/jetified-lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.databinding:viewbinding:4.0.1] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/7a28b244f437db7dd222d2144587ef7d/jetified-viewbinding-4.0.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/a101ba6c34e2527bde100ea14036387e/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/be7fcbe467e25e9702c333490d5f750d/recyclerview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/3fbe0fae0aa52eab7423f1370e098e3c/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/0acef5bfce98adbd704cc096214b5934/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/f43073814e2edff231086e31210d6f70/media-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.0.0] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/ac0ba179a258ba0a73c5e42ba5930b83/navigation-runtime-ktx-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-runtime:2.0.0] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/393e8ba9b329aeb4ae8ebabe176f9015/navigation-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/7eeed2d29d9e6ab98f45fcfea81dfb1d/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/e7a26c58bb1b6b9089a35b7a325d4fc7/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/d491a29d48fafaf524ca1dd33cec8ac4/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/3ece767b80bab5bc4e732bb446be90ca/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/f1630f5f7e30e5c138d4b88932909120/coordinatorlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/1eaebc4ba9601f00fb5d9a8300e49248/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/43cd310a9388705eeb8445c660a07e32/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/d3ac016af570e100bae2326ab70dc58f/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/7ed7219e6c0c13955b6ca4d200c9ce40/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/2bedd204d073827572d0575dd892769c/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.0.0] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/c1298c874b1bae8f129012091869ff07/navigation-common-ktx-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-common:2.0.0] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/325fcf5700362b23c1b75235deff7b25/navigation-common-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.0.0] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/35ff025f0570acba8ddeeafd8f2afee6/transition-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.3.1] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/fdb022f8b254970b8bc26cb3a342da0e/core-1.3.1/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/26c75935917503e93eceb6a1f349cdb8/lifecycle-runtime-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/78e395bca1572c672270cb0fd9f92b1d/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/66c92a39f8b074d60d12b14b39603303/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/1b5deaf1dcd7038c0723b3b202ba4d8d/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/ae5730e250081a1b2888d4cd63587082/jetified-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/768e316a2697afe49469eba3cc14131c/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/33fc2658cd4c382337febe2d542ceb7b/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/e1c488298f7808e252d34dd11d9f5a13/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/ac2a8a3f257f70e76c92acda1d4081c7/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/78333e1813ebfcacd71eda51c25450fb/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/a38015e4c17ddca8e0d89cf39bcf6da1/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/231d017f66a643e73be77bfa84f9a7e1/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/4e5cecd18521f77916f0fbdfe7f60fbf/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.dagger:dagger-lint-aar:2.28] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/e1cd65cebc3b851b9e3d1532da450d14/jetified-dagger-lint-aar-2.28/AndroidManifest.xml:16:1-18:12
+INJECTED from /Users/gokhan/DEVELOPER/github/AndroidExercises/guesthewordapp/src/main/AndroidManifest.xml:17:1-39:12
+INJECTED from /Users/gokhan/DEVELOPER/github/AndroidExercises/guesthewordapp/src/main/AndroidManifest.xml:17:1-39:12
+INJECTED from /Users/gokhan/DEVELOPER/github/AndroidExercises/guesthewordapp/src/main/AndroidManifest.xml:17:1-39:12
+	package
+		ADDED from /Users/gokhan/DEVELOPER/github/AndroidExercises/guesthewordapp/src/main/AndroidManifest.xml:19:5-47
+		INJECTED from /Users/gokhan/DEVELOPER/github/AndroidExercises/guesthewordapp/src/main/AndroidManifest.xml
+		INJECTED from /Users/gokhan/DEVELOPER/github/AndroidExercises/guesthewordapp/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/gokhan/DEVELOPER/github/AndroidExercises/guesthewordapp/src/main/AndroidManifest.xml
+		ADDED from /Users/gokhan/DEVELOPER/github/AndroidExercises/guesthewordapp/src/main/AndroidManifest.xml:17:1-39:12
+		INJECTED from /Users/gokhan/DEVELOPER/github/AndroidExercises/guesthewordapp/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/gokhan/DEVELOPER/github/AndroidExercises/guesthewordapp/src/main/AndroidManifest.xml:18:5-51
+	android:versionCode
+		INJECTED from /Users/gokhan/DEVELOPER/github/AndroidExercises/guesthewordapp/src/main/AndroidManifest.xml
+		ADDED from /Users/gokhan/DEVELOPER/github/AndroidExercises/guesthewordapp/src/main/AndroidManifest.xml:17:1-39:12
+		INJECTED from /Users/gokhan/DEVELOPER/github/AndroidExercises/guesthewordapp/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/gokhan/DEVELOPER/github/AndroidExercises/guesthewordapp/src/main/AndroidManifest.xml:17:11-69
+application
+ADDED from /Users/gokhan/DEVELOPER/github/AndroidExercises/guesthewordapp/src/main/AndroidManifest.xml:21:5-37:19
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/6b20e65dbe50763b55bdf56073383ba4/constraintlayout-2.0.1/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/6b20e65dbe50763b55bdf56073383ba4/constraintlayout-2.0.1/AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.material:material:1.0.0] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/468f8dda6b0e6e54c783eceed8877d98/material-1.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.0.0] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/468f8dda6b0e6e54c783eceed8877d98/material-1.0.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.core:core:1.3.1] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/fdb022f8b254970b8bc26cb3a342da0e/core-1.3.1/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.3.1] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/fdb022f8b254970b8bc26cb3a342da0e/core-1.3.1/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/78e395bca1572c672270cb0fd9f92b1d/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/78e395bca1572c672270cb0fd9f92b1d/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.3.1] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/fdb022f8b254970b8bc26cb3a342da0e/core-1.3.1/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /Users/gokhan/DEVELOPER/github/AndroidExercises/guesthewordapp/src/main/AndroidManifest.xml:27:9-35
+	android:label
+		ADDED from /Users/gokhan/DEVELOPER/github/AndroidExercises/guesthewordapp/src/main/AndroidManifest.xml:25:9-41
+	tools:ignore
+		ADDED from /Users/gokhan/DEVELOPER/github/AndroidExercises/guesthewordapp/src/main/AndroidManifest.xml:29:9-48
+	android:roundIcon
+		ADDED from /Users/gokhan/DEVELOPER/github/AndroidExercises/guesthewordapp/src/main/AndroidManifest.xml:26:9-54
+	android:icon
+		ADDED from /Users/gokhan/DEVELOPER/github/AndroidExercises/guesthewordapp/src/main/AndroidManifest.xml:24:9-43
+	android:allowBackup
+		ADDED from /Users/gokhan/DEVELOPER/github/AndroidExercises/guesthewordapp/src/main/AndroidManifest.xml:23:9-35
+	android:theme
+		ADDED from /Users/gokhan/DEVELOPER/github/AndroidExercises/guesthewordapp/src/main/AndroidManifest.xml:28:9-40
+	android:name
+		ADDED from /Users/gokhan/DEVELOPER/github/AndroidExercises/guesthewordapp/src/main/AndroidManifest.xml:22:9-52
+activity#com.example.android.guesstheword.main.MainActivity
+ADDED from /Users/gokhan/DEVELOPER/github/AndroidExercises/guesthewordapp/src/main/AndroidManifest.xml:31:9-36:20
+	android:name
+		ADDED from /Users/gokhan/DEVELOPER/github/AndroidExercises/guesthewordapp/src/main/AndroidManifest.xml:31:19-52
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/gokhan/DEVELOPER/github/AndroidExercises/guesthewordapp/src/main/AndroidManifest.xml:32:13-35:29
+action#android.intent.action.MAIN
+ADDED from /Users/gokhan/DEVELOPER/github/AndroidExercises/guesthewordapp/src/main/AndroidManifest.xml:33:17-69
+	android:name
+		ADDED from /Users/gokhan/DEVELOPER/github/AndroidExercises/guesthewordapp/src/main/AndroidManifest.xml:33:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/gokhan/DEVELOPER/github/AndroidExercises/guesthewordapp/src/main/AndroidManifest.xml:34:17-77
+	android:name
+		ADDED from /Users/gokhan/DEVELOPER/github/AndroidExercises/guesthewordapp/src/main/AndroidManifest.xml:34:27-74
+uses-sdk
+INJECTED from /Users/gokhan/DEVELOPER/github/AndroidExercises/guesthewordapp/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/gokhan/DEVELOPER/github/AndroidExercises/guesthewordapp/src/main/AndroidManifest.xml
+INJECTED from /Users/gokhan/DEVELOPER/github/AndroidExercises/guesthewordapp/src/main/AndroidManifest.xml
+MERGED from [androidx.databinding:databinding-adapters:4.0.1] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/814a8bed33cb78d2a71ef0c6de95e1c0/databinding-adapters-4.0.1/AndroidManifest.xml:22:5-44
+MERGED from [androidx.databinding:databinding-adapters:4.0.1] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/814a8bed33cb78d2a71ef0c6de95e1c0/databinding-adapters-4.0.1/AndroidManifest.xml:22:5-44
+MERGED from [androidx.databinding:databinding-runtime:4.0.1] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/f9c58c2dec10f38f072160d4433e2b1b/databinding-runtime-4.0.1/AndroidManifest.xml:22:5-44
+MERGED from [androidx.databinding:databinding-runtime:4.0.1] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/f9c58c2dec10f38f072160d4433e2b1b/databinding-runtime-4.0.1/AndroidManifest.xml:22:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/6b20e65dbe50763b55bdf56073383ba4/constraintlayout-2.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/6b20e65dbe50763b55bdf56073383ba4/constraintlayout-2.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.navigation:navigation-ui-ktx:2.0.0] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/2633402edcb7a570642392cf754761a1/navigation-ui-ktx-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-ui-ktx:2.0.0] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/2633402edcb7a570642392cf754761a1/navigation-ui-ktx-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-ui:2.0.0] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/3129fd8275f1dee00232cd0e880d3718/navigation-ui-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-ui:2.0.0] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/3129fd8275f1dee00232cd0e880d3718/navigation-ui-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/468f8dda6b0e6e54c783eceed8877d98/material-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/468f8dda6b0e6e54c783eceed8877d98/material-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/7979c1bb300448175cbcbe414e92b676/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/7979c1bb300448175cbcbe414e92b676/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/55fcbea3c8949bcebe1bd2aee8d8d9f3/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/55fcbea3c8949bcebe1bd2aee8d8d9f3/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.3.1] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/4076b960f88668300faaf7c841a0593d/jetified-core-ktx-1.3.1/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.3.1] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/4076b960f88668300faaf7c841a0593d/jetified-core-ktx-1.3.1/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.hilt:hilt-lifecycle-viewmodel:1.0.0-alpha01] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/6b46e0b6801da4e747552f30824c710e/jetified-hilt-lifecycle-viewmodel-1.0.0-alpha01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.hilt:hilt-lifecycle-viewmodel:1.0.0-alpha01] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/6b46e0b6801da4e747552f30824c710e/jetified-hilt-lifecycle-viewmodel-1.0.0-alpha01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.hilt:hilt-common:1.0.0-alpha01] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/6e84eb8f14bec1dde209ee299da891ac/jetified-hilt-common-1.0.0-alpha01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.hilt:hilt-common:1.0.0-alpha01] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/6e84eb8f14bec1dde209ee299da891ac/jetified-hilt-common-1.0.0-alpha01/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.dagger:hilt-android:2.28-alpha] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/c88989dff0652eef3cf690806d8c6078/jetified-hilt-android-2.28-alpha/AndroidManifest.xml:18:3-42
+MERGED from [com.google.dagger:hilt-android:2.28-alpha] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/c88989dff0652eef3cf690806d8c6078/jetified-hilt-android-2.28-alpha/AndroidManifest.xml:18:3-42
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.0.0] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/348293cde9d5d937d5d24cb0f5d3ea6c/navigation-fragment-ktx-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.0.0] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/348293cde9d5d937d5d24cb0f5d3ea6c/navigation-fragment-ktx-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/04c90a8b61ce26e8c015134dfee80cf1/jetified-lifecycle-viewmodel-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/04c90a8b61ce26e8c015134dfee80cf1/jetified-lifecycle-viewmodel-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.0.0] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/24ea244ddff53cca6109918519277b08/navigation-fragment-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-fragment:2.0.0] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/24ea244ddff53cca6109918519277b08/navigation-fragment-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.2.0] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/54fa9c1f79402b0c02fff84cc54a8082/fragment-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.0] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/54fa9c1f79402b0c02fff84cc54a8082/fragment-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.1.0] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/004d051a9cc198a0d29dbbb16406b13c/jetified-activity-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.1.0] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/004d051a9cc198a0d29dbbb16406b13c/jetified-activity-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/0e14ca0c9cd9ab21d4f4d8728c66a0c0/jetified-lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/0e14ca0c9cd9ab21d4f4d8728c66a0c0/jetified-lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.databinding:viewbinding:4.0.1] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/7a28b244f437db7dd222d2144587ef7d/jetified-viewbinding-4.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.databinding:viewbinding:4.0.1] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/7a28b244f437db7dd222d2144587ef7d/jetified-viewbinding-4.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/a101ba6c34e2527bde100ea14036387e/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/a101ba6c34e2527bde100ea14036387e/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/be7fcbe467e25e9702c333490d5f750d/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/be7fcbe467e25e9702c333490d5f750d/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/3fbe0fae0aa52eab7423f1370e098e3c/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/3fbe0fae0aa52eab7423f1370e098e3c/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/0acef5bfce98adbd704cc096214b5934/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/0acef5bfce98adbd704cc096214b5934/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/f43073814e2edff231086e31210d6f70/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/f43073814e2edff231086e31210d6f70/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.0.0] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/ac0ba179a258ba0a73c5e42ba5930b83/navigation-runtime-ktx-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.0.0] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/ac0ba179a258ba0a73c5e42ba5930b83/navigation-runtime-ktx-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.0.0] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/393e8ba9b329aeb4ae8ebabe176f9015/navigation-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.0.0] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/393e8ba9b329aeb4ae8ebabe176f9015/navigation-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/7eeed2d29d9e6ab98f45fcfea81dfb1d/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/7eeed2d29d9e6ab98f45fcfea81dfb1d/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/e7a26c58bb1b6b9089a35b7a325d4fc7/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/e7a26c58bb1b6b9089a35b7a325d4fc7/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/d491a29d48fafaf524ca1dd33cec8ac4/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/d491a29d48fafaf524ca1dd33cec8ac4/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/3ece767b80bab5bc4e732bb446be90ca/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/3ece767b80bab5bc4e732bb446be90ca/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/f1630f5f7e30e5c138d4b88932909120/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/f1630f5f7e30e5c138d4b88932909120/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/1eaebc4ba9601f00fb5d9a8300e49248/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/1eaebc4ba9601f00fb5d9a8300e49248/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/43cd310a9388705eeb8445c660a07e32/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/43cd310a9388705eeb8445c660a07e32/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/d3ac016af570e100bae2326ab70dc58f/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/d3ac016af570e100bae2326ab70dc58f/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/7ed7219e6c0c13955b6ca4d200c9ce40/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/7ed7219e6c0c13955b6ca4d200c9ce40/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/2bedd204d073827572d0575dd892769c/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/2bedd204d073827572d0575dd892769c/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.0.0] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/c1298c874b1bae8f129012091869ff07/navigation-common-ktx-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.0.0] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/c1298c874b1bae8f129012091869ff07/navigation-common-ktx-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common:2.0.0] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/325fcf5700362b23c1b75235deff7b25/navigation-common-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common:2.0.0] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/325fcf5700362b23c1b75235deff7b25/navigation-common-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/35ff025f0570acba8ddeeafd8f2afee6/transition-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/35ff025f0570acba8ddeeafd8f2afee6/transition-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.3.1] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/fdb022f8b254970b8bc26cb3a342da0e/core-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.1] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/fdb022f8b254970b8bc26cb3a342da0e/core-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/26c75935917503e93eceb6a1f349cdb8/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/26c75935917503e93eceb6a1f349cdb8/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/78e395bca1572c672270cb0fd9f92b1d/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/78e395bca1572c672270cb0fd9f92b1d/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/66c92a39f8b074d60d12b14b39603303/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/66c92a39f8b074d60d12b14b39603303/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/1b5deaf1dcd7038c0723b3b202ba4d8d/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/1b5deaf1dcd7038c0723b3b202ba4d8d/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/ae5730e250081a1b2888d4cd63587082/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/ae5730e250081a1b2888d4cd63587082/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/768e316a2697afe49469eba3cc14131c/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/768e316a2697afe49469eba3cc14131c/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/33fc2658cd4c382337febe2d542ceb7b/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/33fc2658cd4c382337febe2d542ceb7b/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/e1c488298f7808e252d34dd11d9f5a13/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/e1c488298f7808e252d34dd11d9f5a13/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/ac2a8a3f257f70e76c92acda1d4081c7/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/ac2a8a3f257f70e76c92acda1d4081c7/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/78333e1813ebfcacd71eda51c25450fb/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/78333e1813ebfcacd71eda51c25450fb/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/a38015e4c17ddca8e0d89cf39bcf6da1/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/a38015e4c17ddca8e0d89cf39bcf6da1/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/231d017f66a643e73be77bfa84f9a7e1/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/231d017f66a643e73be77bfa84f9a7e1/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/4e5cecd18521f77916f0fbdfe7f60fbf/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/gokhan/.gradle/caches/transforms-2/files-2.1/4e5cecd18521f77916f0fbdfe7f60fbf/cardview-1.0.0/AndroidManifest.xml:20:5-44
+INJECTED from /Users/gokhan/DEVELOPER/github/AndroidExercises/guesthewordapp/src/main/AndroidManifest.xml
+INJECTED from /Users/gokhan/DEVELOPER/github/AndroidExercises/guesthewordapp/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/gokhan/DEVELOPER/github/AndroidExercises/guesthewordapp/src/main/AndroidManifest.xml
+		ADDED from /Users/gokhan/DEVELOPER/github/AndroidExercises/guesthewordapp/src/main/AndroidManifest.xml
+		INJECTED from /Users/gokhan/DEVELOPER/github/AndroidExercises/guesthewordapp/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/gokhan/DEVELOPER/github/AndroidExercises/guesthewordapp/src/main/AndroidManifest.xml
+		ADDED from /Users/gokhan/DEVELOPER/github/AndroidExercises/guesthewordapp/src/main/AndroidManifest.xml
+		INJECTED from /Users/gokhan/DEVELOPER/github/AndroidExercises/guesthewordapp/src/main/AndroidManifest.xml
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+IMPLIED from /Users/gokhan/DEVELOPER/github/AndroidExercises/guesthewordapp/src/main/AndroidManifest.xml:17:1-39:12 reason: dagger.lint has a targetSdkVersion < 4
+uses-permission#android.permission.READ_PHONE_STATE
+IMPLIED from /Users/gokhan/DEVELOPER/github/AndroidExercises/guesthewordapp/src/main/AndroidManifest.xml:17:1-39:12 reason: dagger.lint has a targetSdkVersion < 4
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+IMPLIED from /Users/gokhan/DEVELOPER/github/AndroidExercises/guesthewordapp/src/main/AndroidManifest.xml:17:1-39:12 reason: dagger.lint requested WRITE_EXTERNAL_STORAGE
